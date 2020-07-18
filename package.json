@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Api RESTful",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js", 
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billston/jsframeworks_udemy.git"
+  },
+  "author": "Billston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billston/jsframeworks_udemy/issues"
+  },
+  "homepage": "https://github.com/billston/jsframeworks_udemy#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.5",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.9.20",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "handlebars": "^4.7.6",
+    "nodemon": "^2.0.4",
+    "npm-check-updates": "^7.0.1"
+  }
+}
